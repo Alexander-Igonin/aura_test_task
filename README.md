@@ -1,40 +1,5 @@
 # Support engineer test task
 
-This repository is a part of a test assignment.
-
-## Prerequisites
-
-1. Unpack test repository
-2. Install Python3  
-https://www.python.org/downloads/  
-####NB:  
-it's strongly recommended to install `pip` and set `PATH` along with Python installation if possible.
-3. Install `pip` (if it was omitted on the previous step)  
-https://pip.pypa.io/en/stable/installation/
-4. Install `virtualenv` (optional but recommended)  
-https://virtualenv.pypa.io/en/latest/
-5. Windows users: install `Git Bash`  
-https://www.stanleyulili.com/git/how-to-install-git-bash-on-windows/  
-The next steps should be performed using it.
-6. Navigate to the root of test repository, e.g.  
-`cd {/specify/your/path/to/}support_engineer_test_task`
-9. Create virtual environment (optional but recommended), e.g.  
-`virtualenv env`
-10. Activate virtual environment (optional but recommended), e.g. 
-- Mac/Linux users: `source env/bin/activate`
-- Windows users: `source env/Scripts/activate`
-9. Install dependencies, e.g.:  
-`pip3 install -r requirements.txt`
-10. Mac/Linux users:
-- set PATH, e.g.: `export PATH=$PATH:/usr/local/bin`
-11. Download the latest stable `chromedriver` release for your OS
-- https://chromedriver.chromium.org/
-12. Put chromedriver binary to:
-- Mac & Linux users: `/usr/local/bin`
-- Windows users: `C:\Windows`
-13. Install Google Chrome browser  
-- https://www.google.com/chrome/
-
 ## Test assignment
 
 1. Create a Selenium (https://selenium-python.readthedocs.io/) script as a part of `test_shopping` test case. Replace `pass` statement (Line 2) with the script
@@ -62,6 +27,4 @@ The next steps should be performed using it.
 There's a 50/50 possibility it fails. That's OK.
 6. Provide the results as a new Git repository. 
 
-### NB:   
-For debugging purposes, Selenium can be run in non-headless mode. Have a look at comments in `conftest.py` (Line 9).
 
